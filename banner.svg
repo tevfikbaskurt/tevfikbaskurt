@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="220" viewBox="0 0 840 220" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="840" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0a1628"/>
+      <stop offset="0.5" stop-color="#0d1b3e"/>
+      <stop offset="1" stop-color="#102043"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="220" rx="16" fill="url(#bg)"/>
+  <rect width="840" height="220" rx="16" fill="url(#grid)"/>
+
+  <!-- Glow orbs -->
+  <circle cx="720" cy="40" r="120" fill="#2563eb" opacity="0.08"/>
+  <circle cx="120" cy="190" r="90" fill="#3fb950" opacity="0.06"/>
+
+  <!-- Terminal prompt decoration -->
+  <g opacity="0.5" font-family="monospace" font-size="11" fill="#3d5a80">
+    <text x="40" y="55">$ whoami</text>
+    <text x="40" y="180">~/tevfik@github</text>
+  </g>
+
+  <!-- Accent line -->
+  <rect x="60" y="100" width="120" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Name -->
+  <text x="60" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#e6edf3" letter-spacing="-0.5">Tevfik Başkurt</text>
+
+  <!-- Subtitle -->
+  <text x="62" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#58a6ff">Sistem · Ağ · Siber Güvenlik · Bulut Bilişim</text>
+
+  <!-- Right side dots -->
+  <g>
+    <circle cx="770" cy="180" r="4" fill="#3fb950"/>
+    <text x="782" y="184" font-family="monospace" font-size="10" fill="#3fb950" opacity="0.7">online</text>
+  </g>
+</svg>
